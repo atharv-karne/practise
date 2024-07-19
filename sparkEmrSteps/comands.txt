@@ -1,0 +1,1 @@
+spark-submit s3://unique-emr-storage-bucket/files/spark-etl.py s3://unique-emr-storage-bucket/input s3://unique-emr-storage-bucket/output
