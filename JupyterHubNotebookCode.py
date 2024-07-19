@@ -25,3 +25,10 @@ updatedNYTaxi = nyTaxi.withColumn("current_date", lit(datetime.now()))
 
 # Step 8 
 updatedNYTaxi.printSchema()
+
+#step 9 repeating
+updatedNYTaxi = nyTaxi.withColumn("current_date", lit(datetime.now()))
+
+#step 10 repeating
+updatedNYTaxi.printSchema() 
+
